@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ur">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مواقع ملازمتیں</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            line-height: 1.6;
+            text-align: center;
+            margin: 0;
+            background-color: #f4f7fc; /* نرم پس منظر */
+        }
+        header {
+            background: linear-gradient(to right, #4e2a7b, #7b2ff7); /* نرم رنگوں کا مرکب */
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+            border-bottom: 5px solid #4e2a7b;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            font-size: 3.5em;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        header p {
+            font-size: 1.3em;
+            margin-bottom: 30px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .cta-btn {
+            background-color: #4e2a7b;
+            color: white;
+            padding: 18px 40px;
+            font-size: 1.2em;
+            text-decoration: none;
+            border-radius: 50px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        .cta-btn:hover {
+            background-color: #7b2ff7;
+            transform: translateY(-5px);
+        }
+        .form-container {
+            background-color: white;
+            padding: 40px;
+            margin-top: -50px;
+            margin-bottom: 50px;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .form-container h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #4e2a7b;
+        }
+        .form-container input {
+            width: 100%;
+            padding: 14px;
+            margin: 15px 0;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            font-size: 1.1em;
+        }
+        .form-container button {
+            width: 100%;
+            padding: 16px;
+            font-size: 1.2em;
+            background-color: #4e2a7b;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        .form-container button:hover {
+            background-color: #7b2ff7;
+            transform: translateY(-3px);
+        }
+        footer {
+            background-color: #f4f7fc;
+            padding: 20px;
+            color: #333;
+            font-size: 1.1em;
+            text-align: center;
+        }
+        footer p {
+            margin-bottom: 10px;
+        }
+        footer a {
+            color: #4e2a7b;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        /* موبائل پر مناسب ردعمل کے لئے */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5em;
+            }
+            header p {
+                font-size: 1.1em;
+                padding: 0 20px;
+            }
+            .cta-btn {
+                font-size: 1em;
+                padding: 14px 30px;
+            }
+            .form-container {
+                padding: 20px;
+                width: 90%;
+                margin-top: -30px;
+            }
+            .form-container h2 {
+                font-size: 2em;
+            }
+            .form-container input, .form-container button {
+                font-size: 1em;
+                padding: 12px;
+            }
+        }
+
+        /* چھوٹے اسکرین پر ردعمل (500px سے کم) */
+        @media (max-width: 500px) {
+            header h1 {
+                font-size: 2em;
+            }
+            header p {
+                font-size: 1em;
+                padding: 0 10px;
+            }
+            .cta-btn {
+                font-size: 1em;
+                padding: 12px 25px;
+            }
+            .form-container {
+                width: 100%;
+                padding: 15px;
+            }
+            .form-container h2 {
+                font-size: 1.8em;
+            }
+            .form-container input, .form-container button {
+                font-size: 1em;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>✨ بہترین ملازمتیں دریافت کریں! ✨</h1>
+        <p>ابھی سائن اپ کریں اور گھر بیٹھے جز وقتی یا فری لانس کام کے ساتھ اچھی کمائی حاصل کریں!</p>
+        <a href="#form" class="cta-btn">ابھی سائن اپ کریں</a>
+    </header>
+
+    <div class="form-container" id="form">
+        <h2>مواقع کے لئے سائن اپ کریں</h2>
+        <form action="https://your-link-here.com" method="POST">
+            <input type="email" name="email" placeholder="اپنا ای میل ایڈریس درج کریں" required>
+            <button type="submit">ابھی سائن اپ کریں</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>🚀 آپ کا مثالی کام یہاں سے شروع ہوتا ہے!</p>
+        <p>#گھر_بیٹھ_ملازمتیں #جز_وقتی_ملازمتیں #مستقبل_کے_مواقع</p>
+        <p>کسی سوال کے لیے، براہ کرم ہمارے <a href="mailto:contact@example.com">ای میل پر رابطہ کریں</a>.</p>
+    </footer>
+
+</body>
+</html>
